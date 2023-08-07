@@ -1,0 +1,277 @@
+
+MARKA:                  Opel
+MODEL:                  Adam
+RODZAJ:                 Samochod osobowy
+NUMER REJESTRACYJNY:    KR92PL2
+PRZEBIEG:               98096 [KM]
+ILOSC PASAZEROW:        3
+MOC SILNIKA:            1400 [KW]
+WAGA:                   1250 [KG]
+DANE POSIADACZA;        
+IMIE:                   Jan
+NAZWISKO:               Kowalski
+NARODOWOSC:             Polska
+MIASTO ZAMIESZKANIA:    Chrzanow
+ADRES:                  Aleje 2
+DATA URODZENIA:         2/2/2002
+
+MARKA:                  MAN
+MODEL:                  ZRT
+RODZAJ:                 Samochod ciezarowy
+NUMER REJESTRACYJNY:    12b
+PRZEBIEG:               350000 [KM]
+CZY JEST PRZYCZEPA:     tak
+WAGA:                   3500 [KG]
+MAKSYMALNY UDZWIG:      20000 [KG]
+DANE POSIADACZA;
+IMIE:                   Janusz
+NAZWISKO:               Tracz
+NARODOWOSC:             Polska
+MIASTO ZAMIESZKANIA:    Warszawa
+ADRES:                  Krakowska 12b
+DATA URODZENIA:         12/3/2000
+PESEL:                  22222222
+
+MARKA:                  Kawasaki
+MODEL:                  Z650
+RODZAJ:                 Motor
+NUMER REJESTRACYJNY:    WA7834
+PRZEBIEG:               1000 [KM]
+WAGA:                   100 [KG]
+ILOSC KOL:              2
+ILOSC PASAZEROW:        1
+DANE POSIADACZA;
+IMIE:                   Kacper
+NAZWISKO:               Nykiel
+NARODOWOSC:             Polska
+MIASTO ZAMIESZKANIA:    Gdansk
+ADRES:                  Niepodleglosci 6
+DATA URODZENIA:         16/6/2000
+
+MARKA:                  Kawasaki
+MODEL:                  Z650
+RODZAJ:                 Motor
+NUMER REJESTRACYJNY:    WA784
+PRZEBIEG:               1000 [KM]
+WAGA:                   100 [KG]
+ILOSC KOL:              2
+ILOSC PASAZEROW:        1
+DANE POSIADACZA;
+IMIE:                   Kacper
+NAZWISKO:               Nykiel
+NARODOWOSC:             Polska
+MIASTO ZAMIESZKANIA:    Gdansk
+ADRES:                  Niepodleglosci 6
+DATA URODZENIA:         16/6/2000
+
+MARKA:                  Opel
+MODEL:                  Adam
+RODZAJ:                 Samochod osobowy
+NUMER REJESTRACYJNY:    KR92PL3
+PRZEBIEG:               98096 [KM]
+ILOSC PASAZEROW:        3
+MOC SILNIKA:            1400 [KW]
+WAGA:                   1250 [KG]
+DANE POSIADACZA;        
+IMIE:                   Janusz
+NAZWISKO:               Milewski
+NARODOWOSC:             Polska
+MIASTO ZAMIESZKANIA:    Krakow
+ADRES:                  Raclawicka 20
+DATA URODZENIA:         20/2/2000
+
+MARKA:                  Man
+MODEL:                  TGX
+RODZAJ:                 Samochod ciezarowy
+NUMER REJESTRACYJNY:    26
+PRZEBIEG:               350004 [KM]
+CZY JEST PRZYCZEPA:     tak
+WAGA:                   3500 [KG]
+MAKSYMALNY UDZWIG:      20000 [KG]
+DANE POSIADACZA;
+IMIE:                   Ireneusz
+NAZWISKO:               Poznanski
+NARODOWOSC:             Polska
+MIASTO ZAMIESZKANIA:    Poznan
+ADRES:                  Nadmorska 26
+DATA URODZENIA:         12/12/1992
+PESEL:                  6666666
+
+MARKA:                  Toyota
+MODEL:                  Yaris
+RODZAJ:                 Samochod osobowy
+NUMER REJESTRACYJNY:    PO54KRS
+PRZEBIEG:               98050 [KM]
+ILOSC PASAZEROW:        3
+MOC SILNIKA:            1200 [KW]
+WAGA:                   1450 [KG]
+DANE POSIADACZA;        
+IMIE:                   Alex
+NAZWISKO:               Jonson
+NARODOWOSC:             USA
+MIASTO ZAMIESZKANIA:    Alabama
+ADRES:                  April 245d
+DATA URODZENIA:         10/2/1976
+
+MARKA:                  Nissan
+MODEL:                  GTR
+RODZAJ:                 Samochod osobowy
+NUMER REJESTRACYJNY:    WA123TY
+PRZEBIEG:               12000 [KM]
+ILOSC PASAZEROW:        3
+MOC SILNIKA:            1800 [KW]
+WAGA:                   1100 [KG]
+DANE POSIADACZA;        
+IMIE:                   James
+NAZWISKO:               Franklin
+NARODOWOSC:             Anglia
+MIASTO ZAMIESZKANIA:    York
+ADRES:                  Colorful 20
+DATA URODZENIA:         10/1/1989
+
+MARKA:                  Opel
+MODEL:                  Transit
+RODZAJ:                 Samochod ciezarowy
+NUMER REJESTRACYJNY:    22
+PRZEBIEG:               250000 [KM]
+CZY JEST PRZYCZEPA:     nie
+WAGA:                   3500 [KG]
+MAKSYMALNY UDZWIG:      8000 [KG]
+DANE POSIADACZA;
+IMIE:                   Stanislaw
+NAZWISKO:               Dabrowski
+NARODOWOSC:             Polska
+MIASTO ZAMIESZKANIA:    Krakow
+ADRES:                  Krakowska 22
+DATA URODZENIA:         10/10/1950
+PESEL:                  999999
+
+MARKA:                  Romet
+MODEL:                  GT2
+RODZAJ:                 Motor
+NUMER REJESTRACYJNY:    KK54TG
+PRZEBIEG:               1999 [KM]
+WAGA:                   250 [KG]
+ILOSC KOL:              2
+ILOSC PASAZEROW:        0
+DANE POSIADACZA;
+IMIE:                   Kacper
+NAZWISKO:               Kowal
+NARODOWOSC:             Polska
+MIASTO ZAMIESZKANIA:    Krakow
+ADRES:                  Warszawska 2
+DATA URODZENIA:         10/10/1991
+
+MARKA:                  Ford
+MODEL:                  Transit
+RODZAJ:                 Samochod ciezarowy
+NUMER REJESTRACYJNY:    14
+PRZEBIEG:               200000 [KM]
+CZY JEST PRZYCZEPA:     nie
+WAGA:                   3500 [KG]
+MAKSYMALNY UDZWIG:      10000 [KG]
+DANE POSIADACZA;
+IMIE:                   Grzegorz
+NAZWISKO:               Krzysztowicz
+NARODOWOSC:             Polska
+MIASTO ZAMIESZKANIA:    Sosnowiec
+ADRES:                  Ludwika 14
+DATA URODZENIA:         12/2/1998
+PESEL:                  444444
+
+MARKA:                  Audi
+MODEL:                  R8
+RODZAJ:                 Samochod osobowy
+NUMER REJESTRACYJNY:    WA43RFF
+PRZEBIEG:               0 [KM]
+ILOSC PASAZEROW:        3
+MOC SILNIKA:            2000 [KW]
+WAGA:                   1500 [KG]
+DANE POSIADACZA;        
+IMIE:                   Mateusz
+NAZWISKO:               Kowalik
+NARODOWOSC:             Polska
+MIASTO ZAMIESZKANIA:    Warszawa
+ADRES:                  Marszalkowska 2
+DATA URODZENIA:         10/2/1982
+
+MARKA:                  Opel
+MODEL:                  Trunk
+RODZAJ:                 Samochod ciezarowy
+NUMER REJESTRACYJNY:    13
+PRZEBIEG:               400000 [KM]
+CZY JEST PRZYCZEPA:     nie
+WAGA:                   5000 [KG]
+MAKSYMALNY UDZWIG:      20000 [KG]
+DANE POSIADACZA;
+IMIE:                   Krzysztof
+NAZWISKO:               Piotrkowski
+NARODOWOSC:             Polska
+MIASTO ZAMIESZKANIA:    Strojcow
+ADRES:                  Strazacka 13
+DATA URODZENIA:         1/1/1960
+PESEL:                  11223344
+
+MARKA:                  Audi
+MODEL:                  A4
+RODZAJ:                 Samochod osobowy
+NUMER REJESTRACYJNY:    KK1FDWR
+PRZEBIEG:               100000 [KM]
+ILOSC PASAZEROW:        3
+MOC SILNIKA:            1200 [KW]
+WAGA:                   990 [KG]
+DANE POSIADACZA;        
+IMIE:                   Jan
+NAZWISKO:               Kowalski
+NARODOWOSC:             Polska
+MIASTO ZAMIESZKANIA:    Krakow
+ADRES:                  Krakowska 2
+DATA URODZENIA:         10/2/1960
+
+MARKA:                  Audi
+MODEL:                  R8
+RODZAJ:                 Samochod osobowy
+NUMER REJESTRACYJNY:    JDSS23
+PRZEBIEG:               0 [KM]
+ILOSC PASAZEROW:        1
+MOC SILNIKA:            2000 [KW]
+WAGA:                   2000 [KG]
+DANE POSIADACZA;        
+IMIE:                   Jack
+NAZWISKO:               Smith
+NARODOWOSC:             USA
+MIASTO ZAMIESZKANIA:    Cansas
+ADRES:                  Texases 2
+DATA URODZENIA:         1/1/2000
+
+MARKA:                  BMW
+MODEL:                  RR2
+RODZAJ:                 Motor
+NUMER REJESTRACYJNY:    JJ233
+PRZEBIEG:               2000 [KM]
+WAGA:                   200 [KG]
+ILOSC KOL:              2
+ILOSC PASAZEROW:        1
+DANE POSIADACZA;
+IMIE:                   Jack
+NAZWISKO:               Smith
+NARODOWOSC:             USA
+MIASTO ZAMIESZKANIA:    Cansas
+ADRES:                  Texases 2
+DATA URODZENIA:         1/1/2000
+
+MARKA:                  Audi
+MODEL:                  A8
+RODZAJ:                 Samochod osobowy
+NUMER REJESTRACYJNY:    KO1234
+PRZEBIEG:               12345 [KM]
+ILOSC PASAZEROW:        4
+MOC SILNIKA:            1400 [KW]
+WAGA:                   1200 [KG]
+DANE POSIADACZA;        
+IMIE:                   Kacper
+NAZWISKO:               Czarniecki
+NARODOWOSC:             Polska
+MIASTO ZAMIESZKANIA:    Olkusz
+ADRES:                  Krakowska 22
+DATA URODZENIA:         2/2/2000

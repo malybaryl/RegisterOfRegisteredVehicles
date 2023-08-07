@@ -1,0 +1,11 @@
+Ford Fokus PersonalCar 4 1400 900
+Man TTT Truck yes 5500 25000
+Opel Adam PersonalCar 3 1400 990 
+Romet ZXT MotorBike 150 2 2
+Audi A6 PersonalCar 4 1800 2500
+Nissan GTR PersonalCar 3 1800 1100
+Jaguar V8 PersonalCar 4 1600 1000
+Seat Leon PersonalCar 4 1200 1050
+Audi A4 PersonalCar 3 1200 990
+Opel Corsa PersonalCar 4 1000 790
+Peugeot 308 PersonalCar 4 1000 900
