@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/ChangeOwner.cpp.o"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/ChangeOwner.cpp.o.d"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/CheckTypesOfCars.cpp.o"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/CheckTypesOfCars.cpp.o.d"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/Delete.cpp.o"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/Delete.cpp.o.d"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/MainMenu.cpp.o"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/MainMenu.cpp.o.d"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/Motorbike.cpp.o"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/Motorbike.cpp.o.d"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/Owner.cpp.o"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/Owner.cpp.o.d"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/PersonalCar.cpp.o"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/PersonalCar.cpp.o.d"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/Print.cpp.o"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/Print.cpp.o.d"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/ReadBase.cpp.o"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/ReadBase.cpp.o.d"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/Search.cpp.o"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/Search.cpp.o.d"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/Security.cpp.o"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/Security.cpp.o.d"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/Truck.cpp.o"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/Truck.cpp.o.d"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/Vechicle.cpp.o"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/Vechicle.cpp.o.d"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/checkID.cpp.o"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/checkID.cpp.o.d"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/main.cpp.o"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/main.cpp.o.d"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/updateVector.cpp.o"
+  "CMakeFiles/RegisterOfRegisteredVehicles.dir/updateVector.cpp.o.d"
+  "RegisterOfRegisteredVehicles"
+  "RegisterOfRegisteredVehicles.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/RegisterOfRegisteredVehicles.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
