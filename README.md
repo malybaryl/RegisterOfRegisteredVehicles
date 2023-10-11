@@ -49,5 +49,5 @@ Program nie ma dodatkowych zależności i może być uruchamiany na dowolnym sys
 
 ## Autor
 
-Autor: Kacper Baryłowicz
+Autor: Kacper Baryłowicz                  
 Kontakt: kacper.barylowicz@outlook.com
