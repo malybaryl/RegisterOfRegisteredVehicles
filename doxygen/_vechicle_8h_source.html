@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RejestrZarejestrowanychPojazdów: Plik źródłowy Vechicle.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">RejestrZarejestrowanychPojazdów
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Wczytywanie...</div>
+<div class="SRStatus" id="Searching">Szukanie...</div>
+<div class="SRStatus" id="NoMatches">Brak dopasowań</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Vechicle.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;Owner.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="class_vechicle.html">   10</a></span><span class="keyword">class </span><a class="code hl_class" href="class_vechicle.html">Vechicle</a></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    std::string type;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    std::string registrationNumber;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordtype">int</span> mileage;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_class" href="class_owner.html">Owner</a> owner;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_class" href="class_vechicle.html">Vechicle</a>();</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_class" href="class_vechicle.html">Vechicle</a>(std::string type_, std::string registrationNumber_, <span class="keywordtype">int</span> mileage_, std::string name_, std::string lastName_, std::string homeCountry_, std::string cityOfResidence_, std::string streetName_, std::string numberOfBuilding_, <span class="keywordtype">int</span> dayOfBirth_, <span class="keywordtype">int</span> monthOfBirth_, <span class="keywordtype">int</span> yearOfBirth_, <span class="keywordtype">int</span> IDnumber_);</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <a class="code hl_class" href="class_vechicle.html">~Vechicle</a>();</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_vechicle.html#ad6db6d94616dcdd54d2e71f4235c2ddd">setRegistrationNumber</a>(std::string n);</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_vechicle.html#a7e353bc8140b7602ced8613b154c2212">printRegistrationNumber</a>();</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_vechicle.html#a001b42a52a13a2db51b09b8ca1677098">setType</a>(std::string n);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_vechicle.html#a70f713c6296351788826e4c325e0ab3b">printType</a>();</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_vechicle.html#a2a192553c0151c095a3afd60fad2f666">setOwner</a>(std::string _name, std::string _lastName, std::string _homecountry, std::string _cityOfResidence, std::string _streetName, std::string _numberOfBuilding, <span class="keywordtype">int</span> _dayOfBirth, <span class="keywordtype">int</span> _monthOfBirth, <span class="keywordtype">int</span> _yearOfBirth,<span class="keywordtype">int</span> _IDnumber);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_vechicle.html#a002ae49a12b4734aaf3f26ccf4c8a51a">typeOwner</a>(std::vector&lt;std::string&gt; bazaVector, <span class="keywordtype">bool</span>&amp; correct);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_vechicle.html#a24123d12de3f4352d1393de20ab8d664">setMileage</a>(<span class="keywordtype">int</span> n);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_vechicle.html#a060c180333a8a605c0a6fd19423ac136">getMileage</a>();</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_vechicle.html#a21e7ce0efb5a8aaad23873444f645c51">printMileage</a>();</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordtype">void</span> getIDnumber(<span class="keywordtype">int</span> &amp;n);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="class_vechicle.html#ab062caf516f64caa72f50b233c1e3f59">   73</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_vechicle.html#ab062caf516f64caa72f50b233c1e3f59">printData</a>() = 0;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="class_vechicle.html#a66d1f9d5ec6b11df5e346d34466fbeaf">   78</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_vechicle.html#a66d1f9d5ec6b11df5e346d34466fbeaf">saveVechicle</a>() = 0;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="class_vechicle.html#a4233f0de8f08fb3db696a9202c0233b0">   82</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_vechicle.html#a4233f0de8f08fb3db696a9202c0233b0">printToBase</a>() = 0;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>};</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="ttc" id="aclass_owner_html"><div class="ttname"><a href="class_owner.html">Owner</a></div><div class="ttdoc">Klasa dla właściciela pojazdu.</div><div class="ttdef"><b>Definition:</b> Owner.h:9</div></div>
+<div class="ttc" id="aclass_vechicle_html"><div class="ttname"><a href="class_vechicle.html">Vechicle</a></div><div class="ttdoc">Klasa jest wspólna dla wszystkich typów pojazdów. Są wniej zapisane podstawowe cechy i parametry dla ...</div><div class="ttdef"><b>Definition:</b> Vechicle.h:11</div></div>
+<div class="ttc" id="aclass_vechicle_html_a001b42a52a13a2db51b09b8ca1677098"><div class="ttname"><a href="class_vechicle.html#a001b42a52a13a2db51b09b8ca1677098">Vechicle::setType</a></div><div class="ttdeci">void setType(std::string n)</div><div class="ttdoc">Fukcja ustwia typ pojazdu.</div><div class="ttdef"><b>Definition:</b> Vechicle.cpp:84</div></div>
+<div class="ttc" id="aclass_vechicle_html_a002ae49a12b4734aaf3f26ccf4c8a51a"><div class="ttname"><a href="class_vechicle.html#a002ae49a12b4734aaf3f26ccf4c8a51a">Vechicle::typeOwner</a></div><div class="ttdeci">void typeOwner(std::vector&lt; std::string &gt; bazaVector, bool &amp;correct)</div><div class="ttdoc">Fukcja pozwala wprowadzic własciciela pojazdu przez użytkownika.</div><div class="ttdef"><b>Definition:</b> Vechicle.cpp:21</div></div>
+<div class="ttc" id="aclass_vechicle_html_a060c180333a8a605c0a6fd19423ac136"><div class="ttname"><a href="class_vechicle.html#a060c180333a8a605c0a6fd19423ac136">Vechicle::getMileage</a></div><div class="ttdeci">int getMileage()</div><div class="ttdoc">Fukcja zwraca przebieg pojazdu.</div><div class="ttdef"><b>Definition:</b> Vechicle.cpp:113</div></div>
+<div class="ttc" id="aclass_vechicle_html_a21e7ce0efb5a8aaad23873444f645c51"><div class="ttname"><a href="class_vechicle.html#a21e7ce0efb5a8aaad23873444f645c51">Vechicle::printMileage</a></div><div class="ttdeci">void printMileage()</div><div class="ttdoc">Fukcja wyświetla na ekranie przebieg pojazdu.</div><div class="ttdef"><b>Definition:</b> Vechicle.cpp:118</div></div>
+<div class="ttc" id="aclass_vechicle_html_a24123d12de3f4352d1393de20ab8d664"><div class="ttname"><a href="class_vechicle.html#a24123d12de3f4352d1393de20ab8d664">Vechicle::setMileage</a></div><div class="ttdeci">int setMileage(int n)</div><div class="ttdoc">Fukcja ustwia przebieg pojazdu.</div><div class="ttdef"><b>Definition:</b> Vechicle.cpp:108</div></div>
+<div class="ttc" id="aclass_vechicle_html_a2a192553c0151c095a3afd60fad2f666"><div class="ttname"><a href="class_vechicle.html#a2a192553c0151c095a3afd60fad2f666">Vechicle::setOwner</a></div><div class="ttdeci">void setOwner(std::string _name, std::string _lastName, std::string _homecountry, std::string _cityOfResidence, std::string _streetName, std::string _numberOfBuilding, int _dayOfBirth, int _monthOfBirth, int _yearOfBirth, int _IDnumber)</div><div class="ttdoc">Fukcja ustwia własciciela pojazdu.</div><div class="ttdef"><b>Definition:</b> Vechicle.cpp:94</div></div>
+<div class="ttc" id="aclass_vechicle_html_a4233f0de8f08fb3db696a9202c0233b0"><div class="ttname"><a href="class_vechicle.html#a4233f0de8f08fb3db696a9202c0233b0">Vechicle::printToBase</a></div><div class="ttdeci">virtual void printToBase()=0</div><div class="ttdoc">Funkcja zapisuje dane do priku tekstowego baza.txt.</div></div>
+<div class="ttc" id="aclass_vechicle_html_a66d1f9d5ec6b11df5e346d34466fbeaf"><div class="ttname"><a href="class_vechicle.html#a66d1f9d5ec6b11df5e346d34466fbeaf">Vechicle::saveVechicle</a></div><div class="ttdeci">virtual void saveVechicle()=0</div><div class="ttdoc">Fukcja zapisuje dane pojazdu.</div></div>
+<div class="ttc" id="aclass_vechicle_html_a70f713c6296351788826e4c325e0ab3b"><div class="ttname"><a href="class_vechicle.html#a70f713c6296351788826e4c325e0ab3b">Vechicle::printType</a></div><div class="ttdeci">void printType()</div><div class="ttdoc">Fukcja wyświetla na ekranie typ pojazu.</div><div class="ttdef"><b>Definition:</b> Vechicle.cpp:89</div></div>
+<div class="ttc" id="aclass_vechicle_html_a7e353bc8140b7602ced8613b154c2212"><div class="ttname"><a href="class_vechicle.html#a7e353bc8140b7602ced8613b154c2212">Vechicle::printRegistrationNumber</a></div><div class="ttdeci">void printRegistrationNumber()</div><div class="ttdoc">Fukcja wyświetla na ekranie numer rejestracyjny pojazu.</div><div class="ttdef"><b>Definition:</b> Vechicle.cpp:79</div></div>
+<div class="ttc" id="aclass_vechicle_html_ab062caf516f64caa72f50b233c1e3f59"><div class="ttname"><a href="class_vechicle.html#ab062caf516f64caa72f50b233c1e3f59">Vechicle::printData</a></div><div class="ttdeci">virtual void printData()=0</div><div class="ttdoc">Fukcja wyświetla na ekranie wszystkie dane pojazdu.</div></div>
+<div class="ttc" id="aclass_vechicle_html_ad6db6d94616dcdd54d2e71f4235c2ddd"><div class="ttname"><a href="class_vechicle.html#ad6db6d94616dcdd54d2e71f4235c2ddd">Vechicle::setRegistrationNumber</a></div><div class="ttdeci">void setRegistrationNumber(std::string n)</div><div class="ttdoc">Fukcja ustwia numer rejestracyjny pojazu.</div><div class="ttdef"><b>Definition:</b> Vechicle.cpp:74</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>

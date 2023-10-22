@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RejestrZarejestrowanychPojazdów: Plik źródłowy Owner.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">RejestrZarejestrowanychPojazdów
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Wczytywanie...</div>
+<div class="SRStatus" id="Searching">Szukanie...</div>
+<div class="SRStatus" id="NoMatches">Brak dopasowań</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Owner.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="class_owner.html">    8</a></span><span class="keyword">class </span><a class="code hl_class" href="class_owner.html">Owner</a></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    std::string name;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    std::string lastName;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    std::string homeCountry;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    std::string cityOfResidence;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    std::string streetName;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    std::string numberOfBuilding;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keywordtype">int</span> dayOfBirth;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keywordtype">int</span> monthOfBirth;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordtype">int</span> yearOfBirth;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordtype">int</span> IDnumber;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <a class="code hl_class" href="class_owner.html">Owner</a>();</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <a class="code hl_class" href="class_owner.html">Owner</a>(std::string name_, std::string lastName_, std::string homeCountry_, std::string cityOfResidence_, std::string streetName_, std::string numberOfBuilding_, <span class="keywordtype">int</span> dayOfBirth_, <span class="keywordtype">int</span> monthOfBirth_, <span class="keywordtype">int</span> yearOfBirth_);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <a class="code hl_class" href="class_owner.html">~Owner</a>();</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#a5953486eb9f01c124b287b60bedbab3b">setName</a>(std::string n);</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#add6c55328fab95437137121ac763c1d5">printName</a>();</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#aacdd6ee6b314288c3fac06aa6f80579d">getName</a>(std::string&amp; name_);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#aa73d025c513b71a67951c84e1aa2860d">setLastName</a>(std::string n);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#afca6623cdeed01b3274b6a6267ee8de8">printLastName</a>();</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#a82408d668cc168764f6913d593ba975d">getLastName</a>(std::string&amp; lastName_);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#a13d7ca4c6613e719e67033b6b0ca0155">setHomeCountry</a>(std::string n);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#a0fb7a8a293315e3cdd350ce5f6cc3919">printHomeCoutry</a>();</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#a027ffa4e4c18fcd9d26efeb7d8e87176">getHomeCountry</a>(std::string&amp; homeCountry_);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#a36bf606021802ae9400883056bac100c">setCityOfResidence</a>(std::string n);</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#ad2aac2ea5700234d5b9715103a0ffcc1">printCityOfResidence</a>();</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#aa8e3fdf3507cd23fe729e38405394d69">getCityOfResidence</a>(std::string&amp; cityOfResidence_);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#a9a8216df93b8d0a8ef1e3cc115e6c8f1">setStreetName</a>(std::string n);</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#a5abca95cf2432942fd41f577e3e1b7c1">printStreetName</a>();</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#a54a61eb3d0be3e56dad0c0d0651f49b3">getStreetName</a>(std::string&amp; streetName_);</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#a3ac63ddfcb33b08c661dd59bbba6dafa">setNumberOfBuilding</a>(std::string n);</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#a6932a1672cf1a15e302c54b673f18927">printNumberOfBuilding</a>();</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#a692e4cb6016847bc04423e1caef26981">getNumberOfBuilding</a>(std::string&amp; numberOfBuilding_);</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_owner.html#a812128e60b6122ae5688d8f7ac42dd04">setDayOfBirth</a>(<span class="keywordtype">int</span> n);</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_owner.html#af7c4c5d03cea2648bb5160fba2061020">getDayOfBirth</a>();</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#aba62b968894250dddfd73a9e04dd8fa2">printDayOfBirth</a>();</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span> </div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_owner.html#aa0e2d2149e7b3ddebee92052041c82ab">setMonthOfBirth</a>(<span class="keywordtype">int</span> n);</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_owner.html#a2e160de740766d5e706e304f7fd060a9">getMonthOfBirth</a>();</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span> </div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#a8bbab66234a96d259e377d0eea8e3b96">printMonthOfBirth</a>();</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span> </div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_owner.html#a503e50f83e9958260ebbe57d50952d97">setYearOfBirth</a>(<span class="keywordtype">int</span> n);</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span> </div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_owner.html#aff64a1345c62922494252d323d4288a7">getYearOfBirth</a>();</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span> </div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#aeae5f2c6091b3f5c62c631de238c03ae">printYearOfBirth</a>();</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span> </div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_owner.html#aca8a563fcb1bfdce57fa6c991bcac54f">setIDnumber</a>(<span class="keywordtype">int</span> n);</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_owner.html#ab417379d4a03aceccb4f5bf55b9d0b22">getIDnumber</a>();</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_owner.html#a7efdfcecf650b291d6dda9fc8378f632">printIDnumber</a>();</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>};</div>
+<div class="ttc" id="aclass_owner_html"><div class="ttname"><a href="class_owner.html">Owner</a></div><div class="ttdoc">Klasa dla właściciela pojazdu.</div><div class="ttdef"><b>Definition:</b> Owner.h:9</div></div>
+<div class="ttc" id="aclass_owner_html_a027ffa4e4c18fcd9d26efeb7d8e87176"><div class="ttname"><a href="class_owner.html#a027ffa4e4c18fcd9d26efeb7d8e87176">Owner::getHomeCountry</a></div><div class="ttdeci">void getHomeCountry(std::string &amp;homeCountry_)</div><div class="ttdoc">Fukcja zwraca kraj pochodzenia właściciela.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:74</div></div>
+<div class="ttc" id="aclass_owner_html_a0fb7a8a293315e3cdd350ce5f6cc3919"><div class="ttname"><a href="class_owner.html#a0fb7a8a293315e3cdd350ce5f6cc3919">Owner::printHomeCoutry</a></div><div class="ttdeci">void printHomeCoutry()</div><div class="ttdoc">Fukcja wyświetla kraj pochodzenia właściciela na ekranie.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:69</div></div>
+<div class="ttc" id="aclass_owner_html_a13d7ca4c6613e719e67033b6b0ca0155"><div class="ttname"><a href="class_owner.html#a13d7ca4c6613e719e67033b6b0ca0155">Owner::setHomeCountry</a></div><div class="ttdeci">void setHomeCountry(std::string n)</div><div class="ttdoc">Fukcja zapisuje kraj pochodzenia właściciela.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:64</div></div>
+<div class="ttc" id="aclass_owner_html_a2e160de740766d5e706e304f7fd060a9"><div class="ttname"><a href="class_owner.html#a2e160de740766d5e706e304f7fd060a9">Owner::getMonthOfBirth</a></div><div class="ttdeci">int getMonthOfBirth()</div><div class="ttdoc">Fukcja zwraca miesiąc urodzenia właściciela.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:144</div></div>
+<div class="ttc" id="aclass_owner_html_a36bf606021802ae9400883056bac100c"><div class="ttname"><a href="class_owner.html#a36bf606021802ae9400883056bac100c">Owner::setCityOfResidence</a></div><div class="ttdeci">void setCityOfResidence(std::string n)</div><div class="ttdoc">Fukcja zapisuje miejscowość zamieszkania właściciela.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:79</div></div>
+<div class="ttc" id="aclass_owner_html_a3ac63ddfcb33b08c661dd59bbba6dafa"><div class="ttname"><a href="class_owner.html#a3ac63ddfcb33b08c661dd59bbba6dafa">Owner::setNumberOfBuilding</a></div><div class="ttdeci">void setNumberOfBuilding(std::string n)</div><div class="ttdoc">Fukcja zapisuje numer budynku właściciela.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:109</div></div>
+<div class="ttc" id="aclass_owner_html_a503e50f83e9958260ebbe57d50952d97"><div class="ttname"><a href="class_owner.html#a503e50f83e9958260ebbe57d50952d97">Owner::setYearOfBirth</a></div><div class="ttdeci">int setYearOfBirth(int n)</div><div class="ttdoc">Fukcja zapisuje rok urodzenia właściciela.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:154</div></div>
+<div class="ttc" id="aclass_owner_html_a54a61eb3d0be3e56dad0c0d0651f49b3"><div class="ttname"><a href="class_owner.html#a54a61eb3d0be3e56dad0c0d0651f49b3">Owner::getStreetName</a></div><div class="ttdeci">void getStreetName(std::string &amp;streetName_)</div><div class="ttdoc">Fukcja zwraca ulice właściciela.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:104</div></div>
+<div class="ttc" id="aclass_owner_html_a5953486eb9f01c124b287b60bedbab3b"><div class="ttname"><a href="class_owner.html#a5953486eb9f01c124b287b60bedbab3b">Owner::setName</a></div><div class="ttdeci">void setName(std::string n)</div><div class="ttdoc">Fukcja zapisuje imie właściciela.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:34</div></div>
+<div class="ttc" id="aclass_owner_html_a5abca95cf2432942fd41f577e3e1b7c1"><div class="ttname"><a href="class_owner.html#a5abca95cf2432942fd41f577e3e1b7c1">Owner::printStreetName</a></div><div class="ttdeci">void printStreetName()</div><div class="ttdoc">Fukcja wyświetla ulice właściciela na ekranie.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:99</div></div>
+<div class="ttc" id="aclass_owner_html_a692e4cb6016847bc04423e1caef26981"><div class="ttname"><a href="class_owner.html#a692e4cb6016847bc04423e1caef26981">Owner::getNumberOfBuilding</a></div><div class="ttdeci">void getNumberOfBuilding(std::string &amp;numberOfBuilding_)</div><div class="ttdoc">Fukcja zwraca numer budynku właściciela.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:119</div></div>
+<div class="ttc" id="aclass_owner_html_a6932a1672cf1a15e302c54b673f18927"><div class="ttname"><a href="class_owner.html#a6932a1672cf1a15e302c54b673f18927">Owner::printNumberOfBuilding</a></div><div class="ttdeci">void printNumberOfBuilding()</div><div class="ttdoc">Fukcja wyświetla numer budynku właściciela na ekranie.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:114</div></div>
+<div class="ttc" id="aclass_owner_html_a7efdfcecf650b291d6dda9fc8378f632"><div class="ttname"><a href="class_owner.html#a7efdfcecf650b291d6dda9fc8378f632">Owner::printIDnumber</a></div><div class="ttdeci">void printIDnumber()</div><div class="ttdoc">Fukcja wyświetla pesel właściciela na ekranie.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:174</div></div>
+<div class="ttc" id="aclass_owner_html_a812128e60b6122ae5688d8f7ac42dd04"><div class="ttname"><a href="class_owner.html#a812128e60b6122ae5688d8f7ac42dd04">Owner::setDayOfBirth</a></div><div class="ttdeci">int setDayOfBirth(int n)</div><div class="ttdoc">Fukcja zapisuje dzień urodzenia właściciela.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:124</div></div>
+<div class="ttc" id="aclass_owner_html_a82408d668cc168764f6913d593ba975d"><div class="ttname"><a href="class_owner.html#a82408d668cc168764f6913d593ba975d">Owner::getLastName</a></div><div class="ttdeci">void getLastName(std::string &amp;lastName_)</div><div class="ttdoc">Fukcja zwraca nazwisko właściciela.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:59</div></div>
+<div class="ttc" id="aclass_owner_html_a8bbab66234a96d259e377d0eea8e3b96"><div class="ttname"><a href="class_owner.html#a8bbab66234a96d259e377d0eea8e3b96">Owner::printMonthOfBirth</a></div><div class="ttdeci">void printMonthOfBirth()</div><div class="ttdoc">Fukcja wyświetla miesiąc urodzenia właściciela na ekranie.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:149</div></div>
+<div class="ttc" id="aclass_owner_html_a9a8216df93b8d0a8ef1e3cc115e6c8f1"><div class="ttname"><a href="class_owner.html#a9a8216df93b8d0a8ef1e3cc115e6c8f1">Owner::setStreetName</a></div><div class="ttdeci">void setStreetName(std::string n)</div><div class="ttdoc">Fukcja zapisuje ulice właściciela.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:94</div></div>
+<div class="ttc" id="aclass_owner_html_aa0e2d2149e7b3ddebee92052041c82ab"><div class="ttname"><a href="class_owner.html#aa0e2d2149e7b3ddebee92052041c82ab">Owner::setMonthOfBirth</a></div><div class="ttdeci">int setMonthOfBirth(int n)</div><div class="ttdoc">Fukcja zapisuje miesiąc urodzenia właściciela.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:139</div></div>
+<div class="ttc" id="aclass_owner_html_aa73d025c513b71a67951c84e1aa2860d"><div class="ttname"><a href="class_owner.html#aa73d025c513b71a67951c84e1aa2860d">Owner::setLastName</a></div><div class="ttdeci">void setLastName(std::string n)</div><div class="ttdoc">Fukcja zapisuje nazwisko właściciela.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:49</div></div>
+<div class="ttc" id="aclass_owner_html_aa8e3fdf3507cd23fe729e38405394d69"><div class="ttname"><a href="class_owner.html#aa8e3fdf3507cd23fe729e38405394d69">Owner::getCityOfResidence</a></div><div class="ttdeci">void getCityOfResidence(std::string &amp;cityOfResidence_)</div><div class="ttdoc">Fukcja zwraca miejscowość zamieszkania właściciela.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:89</div></div>
+<div class="ttc" id="aclass_owner_html_aacdd6ee6b314288c3fac06aa6f80579d"><div class="ttname"><a href="class_owner.html#aacdd6ee6b314288c3fac06aa6f80579d">Owner::getName</a></div><div class="ttdeci">void getName(std::string &amp;name_)</div><div class="ttdoc">Fukcja zwraca imie właściciela.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:44</div></div>
+<div class="ttc" id="aclass_owner_html_ab417379d4a03aceccb4f5bf55b9d0b22"><div class="ttname"><a href="class_owner.html#ab417379d4a03aceccb4f5bf55b9d0b22">Owner::getIDnumber</a></div><div class="ttdeci">int getIDnumber()</div><div class="ttdoc">Fukcja zwraca pesel właściciela.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:169</div></div>
+<div class="ttc" id="aclass_owner_html_aba62b968894250dddfd73a9e04dd8fa2"><div class="ttname"><a href="class_owner.html#aba62b968894250dddfd73a9e04dd8fa2">Owner::printDayOfBirth</a></div><div class="ttdeci">void printDayOfBirth()</div><div class="ttdoc">Fukcja wyświetla dzień urodzenia właściciela na ekranie.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:134</div></div>
+<div class="ttc" id="aclass_owner_html_aca8a563fcb1bfdce57fa6c991bcac54f"><div class="ttname"><a href="class_owner.html#aca8a563fcb1bfdce57fa6c991bcac54f">Owner::setIDnumber</a></div><div class="ttdeci">int setIDnumber(int n)</div><div class="ttdoc">Fukcja zapisuje pesel właściciela.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:179</div></div>
+<div class="ttc" id="aclass_owner_html_ad2aac2ea5700234d5b9715103a0ffcc1"><div class="ttname"><a href="class_owner.html#ad2aac2ea5700234d5b9715103a0ffcc1">Owner::printCityOfResidence</a></div><div class="ttdeci">void printCityOfResidence()</div><div class="ttdoc">Fukcja wyświetla miejscowość zamieszkania właściciela na ekranie.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:84</div></div>
+<div class="ttc" id="aclass_owner_html_add6c55328fab95437137121ac763c1d5"><div class="ttname"><a href="class_owner.html#add6c55328fab95437137121ac763c1d5">Owner::printName</a></div><div class="ttdeci">void printName()</div><div class="ttdoc">Fukcja wyświetla imie właściciela na ekranie.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:39</div></div>
+<div class="ttc" id="aclass_owner_html_aeae5f2c6091b3f5c62c631de238c03ae"><div class="ttname"><a href="class_owner.html#aeae5f2c6091b3f5c62c631de238c03ae">Owner::printYearOfBirth</a></div><div class="ttdeci">void printYearOfBirth()</div><div class="ttdoc">Fukcja wyświetla rok urodzenia właściciela na ekranie.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:164</div></div>
+<div class="ttc" id="aclass_owner_html_af7c4c5d03cea2648bb5160fba2061020"><div class="ttname"><a href="class_owner.html#af7c4c5d03cea2648bb5160fba2061020">Owner::getDayOfBirth</a></div><div class="ttdeci">int getDayOfBirth()</div><div class="ttdoc">Fukcja zwraca dzień urodzenia właściciela.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:129</div></div>
+<div class="ttc" id="aclass_owner_html_afca6623cdeed01b3274b6a6267ee8de8"><div class="ttname"><a href="class_owner.html#afca6623cdeed01b3274b6a6267ee8de8">Owner::printLastName</a></div><div class="ttdeci">void printLastName()</div><div class="ttdoc">Fukcja wyświetla nazwisko właściciela na ekranie.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:54</div></div>
+<div class="ttc" id="aclass_owner_html_aff64a1345c62922494252d323d4288a7"><div class="ttname"><a href="class_owner.html#aff64a1345c62922494252d323d4288a7">Owner::getYearOfBirth</a></div><div class="ttdeci">int getYearOfBirth()</div><div class="ttdoc">Fukcja zwraca rok urodzenia właściciela.</div><div class="ttdef"><b>Definition:</b> Owner.cpp:159</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RejestrZarejestrowanychPojazdów: Plik źródłowy PersonalCar.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">RejestrZarejestrowanychPojazdów
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Wczytywanie...</div>
+<div class="SRStatus" id="Searching">Szukanie...</div>
+<div class="SRStatus" id="NoMatches">Brak dopasowań</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">PersonalCar.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;Vechicle.h&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="class_personal_car.html">    8</a></span><span class="keyword">class </span><a class="code hl_class" href="class_personal_car.html">PersonalCar</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_vechicle.html">Vechicle</a></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    std::string model;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    std::string marka;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="keywordtype">int</span> numberOfPassegers;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="keywordtype">int</span> engineCapacity;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keywordtype">int</span> weight;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_class" href="class_personal_car.html">PersonalCar</a>();</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <a class="code hl_class" href="class_personal_car.html">PersonalCar</a>(std::string model_, std::string marka_, <span class="keywordtype">int</span> numberOfPassengers_, <span class="keywordtype">int</span> engineCapacity_, <span class="keywordtype">int</span> weight_, std::string type_, std::string registrationNumber_, <span class="keywordtype">int</span> mileage_, std::string name_, std::string surname_, std::string homeCountry_, std::string city_, std::string street_, std::string numberOfBuilding_, <span class="keywordtype">int</span> dayOfBirth_, <span class="keywordtype">int</span> monthOfBirth_, <span class="keywordtype">int</span> yearOfBirth_, <span class="keywordtype">int</span> IDnumber_);</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_class" href="class_personal_car.html">~PersonalCar</a>();</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_personal_car.html#a5c53b12673798cd9732c68a6957e4b4f">setMarka</a>(std::string n);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_personal_car.html#a60fc24ea9e4afaeef71639c1c3ba2d12">getMarka</a>(std::string&amp; n);</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_personal_car.html#a8f42524fa51c18ad6cf05b39e10b17a3">printMarka</a>();</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_personal_car.html#a918f0d791c56b3ebb463d5add431f917">setModel</a>(std::string n);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_personal_car.html#a7b0b2794b2504a09f1def803eb2c7a85">getModel</a>(std::string&amp; n);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_personal_car.html#a0538fdb5e34d153d7b8fabe6b4bc0823">printModel</a>();</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_personal_car.html#aa4368783fb94662037010476cb4e9728">setNumberOfPassegers</a>(<span class="keywordtype">int</span> n);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_personal_car.html#a84e587b1ea8526e4652e5b8817f694a2">getNumberOfPassegers</a>();</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_personal_car.html#a7b2f3573a0504c7354a56c5da52c1ea8">printNumberOfPassegers</a>();</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_personal_car.html#a186234c21a11f372297773f69772ad80">setEngineCapacity</a>(<span class="keywordtype">int</span> n);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_personal_car.html#a7ec309ba711565499a64b4e8e7b01179">getEngineCapacity</a>();</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_personal_car.html#a8c3111907cdf8ab4a2ca9358674b909a">printEngineCapacity</a>();</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_personal_car.html#a95d6e7bc2eb2a334ac23b0994b302120">setWeight</a>(<span class="keywordtype">int</span> n);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_personal_car.html#a1e377116f015d11f5b5842c2d5bde695">getWeight</a>();</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_personal_car.html#a38ef586c5862ae0a6ba9a6a51999dd7f">printWeight</a>();</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_personal_car.html#a2974ebdc37066b5e1c8a7812a069226f">printData</a>();</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_personal_car.html#a8e39c0bfd06a7033c54d4c8b0b34f54f">saveVechicle</a>();</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_personal_car.html#acbdcada0ad945932f8aa0ccd26555fe4">printToBase</a>();</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <span class="keyword">friend</span> std::istream&amp; operator &gt;&gt; (std::istream&amp; s, <a class="code hl_class" href="class_personal_car.html">PersonalCar</a>&amp; p);</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>};</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
+<div class="ttc" id="aclass_personal_car_html"><div class="ttname"><a href="class_personal_car.html">PersonalCar</a></div><div class="ttdoc">Klasa dla pojazdu typu Samochód Osobowy.</div><div class="ttdef"><b>Definition:</b> PersonalCar.h:9</div></div>
+<div class="ttc" id="aclass_personal_car_html_a0538fdb5e34d153d7b8fabe6b4bc0823"><div class="ttname"><a href="class_personal_car.html#a0538fdb5e34d153d7b8fabe6b4bc0823">PersonalCar::printModel</a></div><div class="ttdeci">void printModel()</div><div class="ttdoc">Funkcja wyświetla model pojazdu na ekranie.</div><div class="ttdef"><b>Definition:</b> PersonalCar.cpp:58</div></div>
+<div class="ttc" id="aclass_personal_car_html_a186234c21a11f372297773f69772ad80"><div class="ttname"><a href="class_personal_car.html#a186234c21a11f372297773f69772ad80">PersonalCar::setEngineCapacity</a></div><div class="ttdeci">int setEngineCapacity(int n)</div><div class="ttdoc">Funkcja ustawia pojemność silnika pojazdu.</div><div class="ttdef"><b>Definition:</b> PersonalCar.cpp:78</div></div>
+<div class="ttc" id="aclass_personal_car_html_a1e377116f015d11f5b5842c2d5bde695"><div class="ttname"><a href="class_personal_car.html#a1e377116f015d11f5b5842c2d5bde695">PersonalCar::getWeight</a></div><div class="ttdeci">int getWeight()</div><div class="ttdoc">Funkcja zwraca wagę pojazdu.</div><div class="ttdef"><b>Definition:</b> PersonalCar.cpp:98</div></div>
+<div class="ttc" id="aclass_personal_car_html_a2974ebdc37066b5e1c8a7812a069226f"><div class="ttname"><a href="class_personal_car.html#a2974ebdc37066b5e1c8a7812a069226f">PersonalCar::printData</a></div><div class="ttdeci">virtual void printData()</div><div class="ttdoc">Fukcja wyświetla na ekranie wszystkie dane pojazdu.</div><div class="ttdef"><b>Definition:</b> PersonalCar.cpp:108</div></div>
+<div class="ttc" id="aclass_personal_car_html_a38ef586c5862ae0a6ba9a6a51999dd7f"><div class="ttname"><a href="class_personal_car.html#a38ef586c5862ae0a6ba9a6a51999dd7f">PersonalCar::printWeight</a></div><div class="ttdeci">void printWeight()</div><div class="ttdoc">Funkcja wyświetla wagę pojazdu na ekranie.</div><div class="ttdef"><b>Definition:</b> PersonalCar.cpp:103</div></div>
+<div class="ttc" id="aclass_personal_car_html_a5c53b12673798cd9732c68a6957e4b4f"><div class="ttname"><a href="class_personal_car.html#a5c53b12673798cd9732c68a6957e4b4f">PersonalCar::setMarka</a></div><div class="ttdeci">void setMarka(std::string n)</div><div class="ttdoc">Fukcja ustwia marka pojazu.</div><div class="ttdef"><b>Definition:</b> PersonalCar.cpp:33</div></div>
+<div class="ttc" id="aclass_personal_car_html_a60fc24ea9e4afaeef71639c1c3ba2d12"><div class="ttname"><a href="class_personal_car.html#a60fc24ea9e4afaeef71639c1c3ba2d12">PersonalCar::getMarka</a></div><div class="ttdeci">void getMarka(std::string &amp;n)</div><div class="ttdoc">Funkcja zwraca marke pojazdu.</div><div class="ttdef"><b>Definition:</b> PersonalCar.cpp:38</div></div>
+<div class="ttc" id="aclass_personal_car_html_a7b0b2794b2504a09f1def803eb2c7a85"><div class="ttname"><a href="class_personal_car.html#a7b0b2794b2504a09f1def803eb2c7a85">PersonalCar::getModel</a></div><div class="ttdeci">void getModel(std::string &amp;n)</div><div class="ttdoc">Funkcja zwraca model pojazdu.</div><div class="ttdef"><b>Definition:</b> PersonalCar.cpp:53</div></div>
+<div class="ttc" id="aclass_personal_car_html_a7b2f3573a0504c7354a56c5da52c1ea8"><div class="ttname"><a href="class_personal_car.html#a7b2f3573a0504c7354a56c5da52c1ea8">PersonalCar::printNumberOfPassegers</a></div><div class="ttdeci">void printNumberOfPassegers()</div><div class="ttdoc">Funkcja wyświetla ilość pasażerów pojazdu na ekranie.</div><div class="ttdef"><b>Definition:</b> PersonalCar.cpp:73</div></div>
+<div class="ttc" id="aclass_personal_car_html_a7ec309ba711565499a64b4e8e7b01179"><div class="ttname"><a href="class_personal_car.html#a7ec309ba711565499a64b4e8e7b01179">PersonalCar::getEngineCapacity</a></div><div class="ttdeci">int getEngineCapacity()</div><div class="ttdoc">Funkcja zwraca pojemność silnika pojazdu.</div><div class="ttdef"><b>Definition:</b> PersonalCar.cpp:83</div></div>
+<div class="ttc" id="aclass_personal_car_html_a84e587b1ea8526e4652e5b8817f694a2"><div class="ttname"><a href="class_personal_car.html#a84e587b1ea8526e4652e5b8817f694a2">PersonalCar::getNumberOfPassegers</a></div><div class="ttdeci">int getNumberOfPassegers()</div><div class="ttdoc">Funkcja zwraca ilość pasażerów pojazdu.</div><div class="ttdef"><b>Definition:</b> PersonalCar.cpp:68</div></div>
+<div class="ttc" id="aclass_personal_car_html_a8c3111907cdf8ab4a2ca9358674b909a"><div class="ttname"><a href="class_personal_car.html#a8c3111907cdf8ab4a2ca9358674b909a">PersonalCar::printEngineCapacity</a></div><div class="ttdeci">void printEngineCapacity()</div><div class="ttdoc">Funkcja wyświetla pojemność silnika pojazdu na ekranie.</div><div class="ttdef"><b>Definition:</b> PersonalCar.cpp:88</div></div>
+<div class="ttc" id="aclass_personal_car_html_a8e39c0bfd06a7033c54d4c8b0b34f54f"><div class="ttname"><a href="class_personal_car.html#a8e39c0bfd06a7033c54d4c8b0b34f54f">PersonalCar::saveVechicle</a></div><div class="ttdeci">virtual void saveVechicle()</div><div class="ttdoc">Fukcja zapisuje dane pojazdu.</div><div class="ttdef"><b>Definition:</b> PersonalCar.cpp:159</div></div>
+<div class="ttc" id="aclass_personal_car_html_a8f42524fa51c18ad6cf05b39e10b17a3"><div class="ttname"><a href="class_personal_car.html#a8f42524fa51c18ad6cf05b39e10b17a3">PersonalCar::printMarka</a></div><div class="ttdeci">void printMarka()</div><div class="ttdoc">Funkcja wyświetla marke pojazdu na ekranie.</div><div class="ttdef"><b>Definition:</b> PersonalCar.cpp:43</div></div>
+<div class="ttc" id="aclass_personal_car_html_a918f0d791c56b3ebb463d5add431f917"><div class="ttname"><a href="class_personal_car.html#a918f0d791c56b3ebb463d5add431f917">PersonalCar::setModel</a></div><div class="ttdeci">void setModel(std::string n)</div><div class="ttdoc">Funkcja ustawia model pojazdu.</div><div class="ttdef"><b>Definition:</b> PersonalCar.cpp:48</div></div>
+<div class="ttc" id="aclass_personal_car_html_a95d6e7bc2eb2a334ac23b0994b302120"><div class="ttname"><a href="class_personal_car.html#a95d6e7bc2eb2a334ac23b0994b302120">PersonalCar::setWeight</a></div><div class="ttdeci">int setWeight(int n)</div><div class="ttdoc">Funkcja ustawia wagę pojazdu.</div><div class="ttdef"><b>Definition:</b> PersonalCar.cpp:93</div></div>
+<div class="ttc" id="aclass_personal_car_html_aa4368783fb94662037010476cb4e9728"><div class="ttname"><a href="class_personal_car.html#aa4368783fb94662037010476cb4e9728">PersonalCar::setNumberOfPassegers</a></div><div class="ttdeci">int setNumberOfPassegers(int n)</div><div class="ttdoc">Funkcja ustawia ilość pasażerów pojazdu.</div><div class="ttdef"><b>Definition:</b> PersonalCar.cpp:63</div></div>
+<div class="ttc" id="aclass_personal_car_html_acbdcada0ad945932f8aa0ccd26555fe4"><div class="ttname"><a href="class_personal_car.html#acbdcada0ad945932f8aa0ccd26555fe4">PersonalCar::printToBase</a></div><div class="ttdeci">virtual void printToBase()</div><div class="ttdoc">Fukcja zapisuje dane do pliku tekstowego baza.txt.</div><div class="ttdef"><b>Definition:</b> PersonalCar.cpp:193</div></div>
+<div class="ttc" id="aclass_vechicle_html"><div class="ttname"><a href="class_vechicle.html">Vechicle</a></div><div class="ttdoc">Klasa jest wspólna dla wszystkich typów pojazdów. Są wniej zapisane podstawowe cechy i parametry dla ...</div><div class="ttdef"><b>Definition:</b> Vechicle.h:11</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>

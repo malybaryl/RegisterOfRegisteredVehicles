@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RejestrZarejestrowanychPojazdów: Plik źródłowy Truck.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">RejestrZarejestrowanychPojazdów
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Wczytywanie...</div>
+<div class="SRStatus" id="Searching">Szukanie...</div>
+<div class="SRStatus" id="NoMatches">Brak dopasowań</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Truck.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;Vechicle.h&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="class_truck.html">    8</a></span><span class="keyword">class </span><a class="code hl_class" href="class_truck.html">Truck</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_vechicle.html">Vechicle</a></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    std::string model;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    std::string marka;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    std::string isThereATrailer;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="keywordtype">int</span> weight;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keywordtype">int</span> maximumLoad;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_class" href="class_truck.html">Truck</a>();</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <a class="code hl_class" href="class_truck.html">Truck</a>(std::string model_, std::string marka_, std::string isThereATrailer_, <span class="keywordtype">int</span> weight_, <span class="keywordtype">int</span> maximumLoad_, std::string type_, std::string registrationNumber_, <span class="keywordtype">int</span> mileage_, std::string name_, std::string surname_, std::string homeCountry_, std::string cityOfResidence_, std::string street_, std::string numberOfBuilding_, <span class="keywordtype">int</span> dayOfBirth_, <span class="keywordtype">int</span> mounthOfBirth_, <span class="keywordtype">int</span> yearOfBirth_,<span class="keywordtype">int</span> IDnumber_);</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_class" href="class_truck.html">~Truck</a>();</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_truck.html#a2132a4f1787958fd9f2a7ca577816cd4">setMarka</a>(std::string n);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_truck.html#a03563d73724bdfd31febafd461da4230">printMarka</a>();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_truck.html#abca8350e52a0927b63c820492ed7efd3">setModel</a>(std::string n);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_truck.html#a05657d4b021cbef9fc73a31718638299">printModel</a>();</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_truck.html#a989968b97a1c4f110fbea69606d4c425">setWeight</a>(<span class="keywordtype">int</span> n);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_truck.html#a40ffb91da10635d0f2b0138a38ce2dd1">getWeight</a>();</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_truck.html#a5827d010568664c12e67a42500503d20">printWeight</a>();</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_truck.html#acbf5e4c56b789fab045e8a9a9f5db422">setIsThereATrailer</a>(std::string n);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_truck.html#a41e9d27b90c0d2ee8c31433a55d59fdb">printIsThereATrailer</a>();</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_truck.html#ab8b66908d7425e2c4bc22ebb55800c4d">setMaximumLoad</a>(<span class="keywordtype">int</span> n);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_truck.html#a57fb11262561c148d37c6757f5392a91">getMaximumLoad</a>();</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_truck.html#a8adac980b2aab39093313754d5038435">printMaximumLoad</a>();</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_truck.html#abd9493ef5960b64ac4bf478bfae4c33f">printData</a>();</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_truck.html#ab881995fab9657db120fb6e25cba6a64">saveVechicle</a>();</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_truck.html#aa6cce666d59a0a1f6601a09ad44846ab">printToBase</a>();</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keyword">friend</span> std::istream&amp; operator &gt;&gt; (std::istream&amp; s, <a class="code hl_class" href="class_truck.html">Truck</a>&amp; p);</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>};</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="ttc" id="aclass_truck_html"><div class="ttname"><a href="class_truck.html">Truck</a></div><div class="ttdoc">Klasa dla pojazdu typu Samochód Ciężarowy.</div><div class="ttdef"><b>Definition:</b> Truck.h:9</div></div>
+<div class="ttc" id="aclass_truck_html_a03563d73724bdfd31febafd461da4230"><div class="ttname"><a href="class_truck.html#a03563d73724bdfd31febafd461da4230">Truck::printMarka</a></div><div class="ttdeci">void printMarka()</div><div class="ttdoc">Funkcja wyświetla marke pojazdu na ekranie.</div><div class="ttdef"><b>Definition:</b> Truck.cpp:40</div></div>
+<div class="ttc" id="aclass_truck_html_a05657d4b021cbef9fc73a31718638299"><div class="ttname"><a href="class_truck.html#a05657d4b021cbef9fc73a31718638299">Truck::printModel</a></div><div class="ttdeci">void printModel()</div><div class="ttdoc">Funkcja wyświetla model pojazdu na ekranie.</div><div class="ttdef"><b>Definition:</b> Truck.cpp:50</div></div>
+<div class="ttc" id="aclass_truck_html_a2132a4f1787958fd9f2a7ca577816cd4"><div class="ttname"><a href="class_truck.html#a2132a4f1787958fd9f2a7ca577816cd4">Truck::setMarka</a></div><div class="ttdeci">void setMarka(std::string n)</div><div class="ttdoc">Funkcja ustawia marke pojazdu.</div><div class="ttdef"><b>Definition:</b> Truck.cpp:35</div></div>
+<div class="ttc" id="aclass_truck_html_a40ffb91da10635d0f2b0138a38ce2dd1"><div class="ttname"><a href="class_truck.html#a40ffb91da10635d0f2b0138a38ce2dd1">Truck::getWeight</a></div><div class="ttdeci">int getWeight()</div><div class="ttdoc">Funkcja zwraca wagę pojazdu.</div><div class="ttdef"><b>Definition:</b> Truck.cpp:60</div></div>
+<div class="ttc" id="aclass_truck_html_a41e9d27b90c0d2ee8c31433a55d59fdb"><div class="ttname"><a href="class_truck.html#a41e9d27b90c0d2ee8c31433a55d59fdb">Truck::printIsThereATrailer</a></div><div class="ttdeci">void printIsThereATrailer()</div><div class="ttdoc">Funkcja wyświetla czy pojazd zawiera przyczepę na ekranie.</div><div class="ttdef"><b>Definition:</b> Truck.cpp:75</div></div>
+<div class="ttc" id="aclass_truck_html_a57fb11262561c148d37c6757f5392a91"><div class="ttname"><a href="class_truck.html#a57fb11262561c148d37c6757f5392a91">Truck::getMaximumLoad</a></div><div class="ttdeci">int getMaximumLoad()</div><div class="ttdoc">Funkcja maksymalną ładowność pojazdu.</div><div class="ttdef"><b>Definition:</b> Truck.cpp:85</div></div>
+<div class="ttc" id="aclass_truck_html_a5827d010568664c12e67a42500503d20"><div class="ttname"><a href="class_truck.html#a5827d010568664c12e67a42500503d20">Truck::printWeight</a></div><div class="ttdeci">void printWeight()</div><div class="ttdoc">Funkcja wyświetla wagę pojazdu na ekranie.</div><div class="ttdef"><b>Definition:</b> Truck.cpp:65</div></div>
+<div class="ttc" id="aclass_truck_html_a8adac980b2aab39093313754d5038435"><div class="ttname"><a href="class_truck.html#a8adac980b2aab39093313754d5038435">Truck::printMaximumLoad</a></div><div class="ttdeci">void printMaximumLoad()</div><div class="ttdoc">Funkcja wyświetla maksymalną ładowność pojazdu na ekranie.</div><div class="ttdef"><b>Definition:</b> Truck.cpp:90</div></div>
+<div class="ttc" id="aclass_truck_html_a989968b97a1c4f110fbea69606d4c425"><div class="ttname"><a href="class_truck.html#a989968b97a1c4f110fbea69606d4c425">Truck::setWeight</a></div><div class="ttdeci">int setWeight(int n)</div><div class="ttdoc">Funkcja ustawia wagę pojazdu.</div><div class="ttdef"><b>Definition:</b> Truck.cpp:55</div></div>
+<div class="ttc" id="aclass_truck_html_aa6cce666d59a0a1f6601a09ad44846ab"><div class="ttname"><a href="class_truck.html#aa6cce666d59a0a1f6601a09ad44846ab">Truck::printToBase</a></div><div class="ttdeci">virtual void printToBase()</div><div class="ttdoc">Fukcja zapisuje dane do pliku tekstowego baza.txt.</div><div class="ttdef"><b>Definition:</b> Truck.cpp:180</div></div>
+<div class="ttc" id="aclass_truck_html_ab881995fab9657db120fb6e25cba6a64"><div class="ttname"><a href="class_truck.html#ab881995fab9657db120fb6e25cba6a64">Truck::saveVechicle</a></div><div class="ttdeci">virtual void saveVechicle()</div><div class="ttdoc">Fukcja zapisuje dane pojazdu.</div><div class="ttdef"><b>Definition:</b> Truck.cpp:146</div></div>
+<div class="ttc" id="aclass_truck_html_ab8b66908d7425e2c4bc22ebb55800c4d"><div class="ttname"><a href="class_truck.html#ab8b66908d7425e2c4bc22ebb55800c4d">Truck::setMaximumLoad</a></div><div class="ttdeci">int setMaximumLoad(int n)</div><div class="ttdoc">Funkcja ustawia maksymalną ładowność pojazdu.</div><div class="ttdef"><b>Definition:</b> Truck.cpp:80</div></div>
+<div class="ttc" id="aclass_truck_html_abca8350e52a0927b63c820492ed7efd3"><div class="ttname"><a href="class_truck.html#abca8350e52a0927b63c820492ed7efd3">Truck::setModel</a></div><div class="ttdeci">void setModel(std::string n)</div><div class="ttdoc">Funkcja ustawia model pojazdu.</div><div class="ttdef"><b>Definition:</b> Truck.cpp:45</div></div>
+<div class="ttc" id="aclass_truck_html_abd9493ef5960b64ac4bf478bfae4c33f"><div class="ttname"><a href="class_truck.html#abd9493ef5960b64ac4bf478bfae4c33f">Truck::printData</a></div><div class="ttdeci">virtual void printData()</div><div class="ttdoc">Fukcja wyświetla na ekranie wszystkie dane pojazdu.</div><div class="ttdef"><b>Definition:</b> Truck.cpp:95</div></div>
+<div class="ttc" id="aclass_truck_html_acbf5e4c56b789fab045e8a9a9f5db422"><div class="ttname"><a href="class_truck.html#acbf5e4c56b789fab045e8a9a9f5db422">Truck::setIsThereATrailer</a></div><div class="ttdeci">void setIsThereATrailer(std::string n)</div><div class="ttdoc">Funkcja ustawia czy pojazd zawiera przyczepę.</div><div class="ttdef"><b>Definition:</b> Truck.cpp:70</div></div>
+<div class="ttc" id="aclass_vechicle_html"><div class="ttname"><a href="class_vechicle.html">Vechicle</a></div><div class="ttdoc">Klasa jest wspólna dla wszystkich typów pojazdów. Są wniej zapisane podstawowe cechy i parametry dla ...</div><div class="ttdef"><b>Definition:</b> Vechicle.h:11</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>
