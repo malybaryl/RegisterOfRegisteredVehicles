@@ -69,6 +69,12 @@ a.linkBlank
     color: black;
 }
 
+a.linkBlank:hover
+{
+    text-decoration: underline;
+    color: rgb(11, 0, 81);
+}
+
 ol.chapters
 {
     margin-top: 5px;
