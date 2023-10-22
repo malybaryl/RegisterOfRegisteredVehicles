@@ -58,7 +58,8 @@ Program "Rejestr Zarejestrowanych Pojazdów" to aplikacja napisana w języku C++
        ./run                                          
    1.2 Dla Windows (przykład dla: MinGW64) 
                                                   
-       Otwórz konsole w katalogu z programem i wpisz:      
+       Otwórz konsole w katalogu z programem i wpisz:
+   
        cd build      
        cmake .. -G "MinGW Makefiles"      
        make         
