@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Rejestr Zarejestrowanych Pojazdów" content="width=device-width, initial-scale=1.0">
+    <title>Rejestr Zarejestrowanych Pojazdów</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans&family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="logo">Rejestr Zarejestrowanych Pojazdów</div>
+    <div id="container">
+        <div id="contents">
+            <ol class="chapters">
+                <li>
+                    <a class="linkBlank" href="#programDescription">Opis programu</a>
+                </li>
+                <li><a class="linkBlank" href="#programOperation">Działanie programu</a>
+                    <ul>
+                        <li>
+                            <a class="linkBlank" href="#registerNewVechicle">Rejestracja nowego pojazdu</a>
+                        </li>
+                        <li>
+                            <a class="linkBlank" href="#previewOfRegisteredVehicles">Podgląd zarejestrownych pojazdów<a/>
+                        </li>
+                        <li>
+                            <a class="linkBlank" href="#searchingForSpecificVehicle">Wyszukanie kokretnego pojazdu</a>
+                        </li>
+                        <li>
+                            <a class="linkBlank" href="#searchForVehiclesOfGivenType">Wyszukanie pojazdów danego typu</a>
+                        </li>
+                        <li>
+                            <a class="linkBlank" href="#searchForVehiclesOfGivenOwner">Wyszukanie pojazdów danego właściciela</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a class="linkBlank" href="#doxyGen">DoxyGen</a></li>
+            </ol>
+        </div>
+        <div id="programDescription">
+            <h2>Opis Programu</h2>
+            Program przechowuje zarejestrowane pojazdy w pliku baza.txt. Użytkownik może rejestrować 
+            nowe pojazdy, przeglądać już wcześniej zarejestrowane pojazdy, zmieniać właścicieli pojazdów, 
+            wyszukiwać kokretne pojazdy i usuwać pojazdy. Możliwe jest również robienie wydruków 
+            wybranych pojazdów do pliku wydruk.txt. Program korzysta z wcześniej zapisanych pojazdów, 
+            których dane mogą nadpisać automatycznie część cech rejestrowanego pojazdu.
+        </div>
+        <div id="programOperation">
+            <h2>Działanie programu</h2>
+            <div id="registerNewVechicle">
+                <h4>Rejestracja nowego pojazdu;</h4>
+                <img src="img/001.png" id="p001"><br/>
+                Po uruchomieniu programu mamy do wyboru 5 opcji;<br/><br/>
+                1. Rejestracja nowego pojazdu<br/>
+                2. Podgląd zarejestrowanych pojazdów<br/>
+                3. Wyszukanie kokretnego pojazdu.<br/>
+                4. Wyszukanie pojazdów danego typu.<br/>
+                5. Wyszukanie pojazdów danego właścieciela<br/><br/>
+                Gdy wybierzemy inną opcje niż jedną z powyższych np. 6 to program się zakończy i wyświetli komunikat.<br/>
+                <img src="img/002.png" id="p002"><br/>
+                Po wybraniu opcji nr 1. Będziemy zapytani o rodzaj pojazu, który chcemy zarejestrować.
+                <img src="img/003.png" id="p003"><br/>
+                Po wybraniu opcji np. 1 ukaże się szereg danych do wprowadzenia. Takich jak: marka, model, numer 
+                rejestracyjny, przebieg, imię, nazwisko, kraj zamieszkania, miejscowość zamieszkania, ulica, numer, 
+                budynku, dzień urodzenia, miesiąc urodzeniam rok urodzenia (dane mogą różnić <br id="text">w zależności od 
+                wcześniejszego wyboru typu pojazdu).<br/>
+                <img src="img/004.png" id="p004"><br/>
+                Po wprowadzeniu danych, zostaną one wyświetlone na ekranie, oraz dane zostaną zapisane w <br id="text">pliku 
+                tekstowym baza.txt.<br/>
+                <img src="img/005.png" id="p005"><br/>
+            </div>
+            <div id="previewOfRegisteredVehicles">
+                <h4>Podgląd zarejestrownych pojazdów;</h4>
+                Gdy dane się zapiszemy program wróci do menu głównego, gdzie będziemy mogli ponownie zarejestrować 
+                pojazd, albo wykonać inne czynności jak np po wybraniu opcji nr. 2, gdzie ukażą <br id="text">nam się wszystkie 
+                zarejestrowane wcześniej pojazdy.<br/>
+                <img src="img/006.png" id="p006"><br/>
+                Następnie program zapyta czy chcemy wydrukować dane i po wpisaniu “TAK” program zapisze <br id="text">dane w 
+                pliku wydruk.txt.<br/>
+                <img src="img/007.png" id="p007"><br/>
+                <img src="img/008.png" id="p008"><br/>
+                Gdy wpiszemy “NIE” dane się nie zapiszą do pliku. Niezależnie od wybranej opcji program powróci do 
+                menu głównego.
+            </div>
+            <div id="searchingForSpecificVehicle">
+                <h4>Wyszukanie konkretnego pojazdu;</h4>
+                Po wybraniu opcji nr.3 w menu głównym, będziemy mogli wyszukać kokretny pojazd <br id="text">wpisując jego numer 
+                rejestracyjny.<br/>
+                <img src="img/009.png" id="p009"><br/>
+                Po wprowadzeniu poprawnego numeru rejestracyjnego pokażą się dane pojazdu, oraz akcje, które 
+                możemy wykonać. W przeciwnym razie, jeśli numer rejestracyjny będzie niepoprawny, to pokaże się 
+                komunikat o niepoprawnych danych I program wróci do menu głównego
+                <img src="img/010.png" id="p010"><br/>
+                Gdy wybierzemy opcje nr.1 dane tego pojazdu zostaną zapisane do pliku wydruk.txt.
+                <img src="img/011.png" id="p011"><br/>
+                Jednak, gdy wybierzemy opcje nr.2. Będziemy poproszeni o wprowadzenie: imienia, nazwiska, 
+                narodowości, miasta zamieszkania, ulicy, numeru budynku, dzień urodzenia, miesiąc urodzenia, rok 
+                urodzenia.<br/>
+                <img src="img/012.png" id="p012"><br/>
+                <br id="text">I dane zostaną podmienione.<br/>
+                <img src="img/013.png" id="p013"><br/>
+                <br id="text">Po wybraniu opcji nr.3 pojazd zostanie usunięty.<br/>
+                <img src="img/014.png" id="p014"><br/>
+                Gdy wybierzemy opcje nr.4 nic się nie stanie.
+                Niezależnie od wybranej opcji program wróci ostatecznie do menu głównego.
+            </div>
+            <div id="searchForVehiclesOfGivenType">
+                <h4>Wyszukanie pojazdów danego typu;</h4>
+                Po wybraniu tej opcji zostaniemy zapytani o typ pojazdów jaki chcemy wyszukać.
+                <img src="img/015.png" id="p015"><br/>
+                Gdy wybierzemy np opcje nr.1 ukażą się wszystkie zapisane samochy osobiste.
+                <img src="img/016.png" id="p016"><br/>
+                Następnie zostaniemy zapytani czy chcemy wydrukować dane. Po wpisaniu “TAK” dane zostaną <br id="text">zapisane 
+                w pliku wydruk.txt.<br/>
+                <img src="img/007.png" id="p007"><br/>
+                A następnie program powróci do menu głównego.
+            </div>
+            <div id="searchForVehiclesOfGivenOwner">
+                <h4>Wyszukanie pojazdów danego właściciela</h4>
+                Gdy wybierzemy tę opcję, będziemy znaleźć pojazdy danego właściciela po wprowadzeniu danych takich 
+                jak: imie, nazwisko, dzień urodzenia, miesiąc urodzenia I rok urodzenia.
+                <img src="img/017.png" id="p017"><br/>
+                Po wprowadzeniu danych ukażą nam się pojazdy tego właściciela.
+                <img src="img/018.png" id="p018"><br/>
+                Oraz zostanie wyświetlona lista akcji do zrobienia z tymi danymi.
+                <img src="img/019.png" id="p019"><br/>
+                <br id="text">Po wybraniu opcji nr 1 dane zostaną zapisane do pliku wydruk.txt.<br/>
+                <img src="img/007.png" id="p007"><br/>
+                Gdy wybierzemy opcje nr 2 dane zostaną usunięte.
+                Po wybraniu opcji nr 3 nic się nie stanie.
+                Niezależnie od wybranej opcji program powróci do menu głównego.
+            </div>          
+        </div>
+        <div id="doxyGen">
+            <a title="DoxyGen" href="doxygen/index.html"><img src="img/020.png" id="p020"><br/></a>
+        </div>
+    </div>
+    <div id="footer">
+        <h6>2023 &copy; Kacper Baryłowicz. Kontakt: kacper.barylowicz@outlook.com. Po więcej informacji zajrzyj na mój Github <a href="https://github.com/malybaryl">malybaryl</a> lub moją wizytówkę <a href="https://malybaryl.github.io/KacperBarylowicz/">Kacper Baryłowicz</a>.
+        <br/>W repozytorium można zobaczyć zawartość strony i doxygena w formie pdf. Nazwa pliu to: Rejestr Zarejestrowanych Pojazdów - Kacper Baryłowicz.</h6>
+    </div>
+</body>
+</html>
