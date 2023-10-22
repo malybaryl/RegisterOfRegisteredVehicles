@@ -45,7 +45,7 @@ Program "Rejestr Zarejestrowanych Pojazdów" to aplikacja napisana w języku C++
 
 ## Budowanie Programu
 
-1. Za pomocą Cmake (wymagane jest zainstalowanie Cmake): 
+1. Za pomocą Cmake (wymagane jest zainstalowanie Cmake i kompilatora): 
                                                                                            
    1.1 Dla Linux (przykład dla: Ubuntu):   
                                                            
@@ -66,7 +66,7 @@ Program "Rejestr Zarejestrowanych Pojazdów" to aplikacja napisana w języku C++
        cd source         
        ./run.exe         
 
-2. Za pomocą Visual Studio:
+2. Za pomocą Visual Studio (wymagane jest zainstalowanie Visual Studio):
    
        Stwórz nowy projekt w Visualu. W katalogu source znajdziesz wszystkie pliki źródłowe.
        Zaznacz je i przeciągnij do aplikacji Visuala do zakładki Source Files. Naciśnij F5,
