@@ -66,7 +66,7 @@ Program "Rejestr Zarejestrowanych Pojazdów" to aplikacja napisana w języku C++
        cd source         
        ./run.exe         
 
-2. Za pomocą Visual Studio
+2. Za pomocą Visual Studio:
    
        Stwórz nowy projekt w Visualu. W katalogu source znajdziesz wszystkie pliki źródłowe.
        Zaznacz je i przeciągnij do aplikacji Visuala do zakładki Source Files. Naciśnij F5,
