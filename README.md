@@ -2,7 +2,7 @@
 
 ## Opis
 
-Program "Rejestr Zarejestrowanych Pojazdów" to aplikacja napisana w języku C++, która służy do zarządzania bazą danych zarejestrowanych pojazdów. Program umożliwia użytkownikowi rejestrowanie nowych pojazdów, przeglądanie istniejących wpisów, zmianę właścicieli pojazdów, wyszukiwanie konkretnych pojazdów oraz usuwanie wpisów. Ponadto, program pozwala na generowanie wydruków wybranych pojazdów do pliku "wydruk.txt". Działa na zasadzie interaktywnej konsoli, co ułatwia użytkownikowi zarządzanie danymi pojazdów.
+Program "Rejestr Zarejestrowanych Pojazdów" to aplikacja napisana w języku C++, która służy do zarządzania bazą danych zarejestrowanych pojazdów. Program umożliwia użytkownikowi rejestrowanie nowych pojazdów, przeglądanie istniejących wpisów, zmianę właścicieli pojazdów, wyszukiwanie konkretnych pojazdów oraz usuwanie wpisów. Ponadto, program pozwala na generowanie wydruków wybranych pojazdów do pliku "wydruk.txt". Działa na zasadzie interaktywnej konsoli, co ułatwia użytkownikowi zarządzanie danymi pojazdów. Więcej na temat projektu możesz przeczytać na witrynie: https://malybaryl.github.io/RejestrZarejestrownychPojazdow/ lub pdf: Rejestr Zarejestrowanych Pojazdów - Kacper Baryłowicz.pdf.
 
 ## Funkcje
 
