@@ -43,6 +43,25 @@ Program "Rejestr Zarejestrowanych Pojazdów" to aplikacja napisana w języku C++
 2. Podążaj za instrukcjami wyświetlanymi na ekranie, aby wprowadzać i edytować dane pojazdów.
 3. Program jest przyjazny dla użytkownika i umożliwia łatwe zarządzanie bazą pojazdów.
 
+## Budowanie Programu
+
+1. Za pomocą Cmake (wymagane jest zainstalowanie Cmake):
+   1.1 Dla Linux (przykład dla: Ubuntu)
+       otwórz konsole w katalogu z programem i wpisz:
+       cd build
+       cmake ..
+       make
+       cd source
+       ./run
+   1.2 Dla Windows (przykład dla: MinGW64)
+       otwórz konsole w katalogu z programem i wpisz:
+       cd build
+       cmake .. -G "MinGW Makefiles"
+       make
+       cd source
+       ./run.exe
+   1.3 Dla Windows (przykład dla: Visual Studio)
+       stwórz nowy projekt w Visualu. W katalogu source znajdziesz wszystkie pliki źródłowe. Zaznacz je i przeciągnij do aplikacji Visuala do zakładki Source Files. Naciśnij F5, albo zieloną strzałke u góry.
 ## Wymagania
 
 Program nie ma dodatkowych zależności i może być uruchamiany na dowolnym systemie obsługującym C++.
