@@ -1,5 +1,0 @@
-/home/kacper/Desktop/Programming/cpp/Code/RegisterOfRegisteredVehicles/build/CMakeFiles/edit_cache.dir
-/home/kacper/Desktop/Programming/cpp/Code/RegisterOfRegisteredVehicles/build/CMakeFiles/rebuild_cache.dir
-/home/kacper/Desktop/Programming/cpp/Code/RegisterOfRegisteredVehicles/build/source/CMakeFiles/RegisterOfRegisteredVehicles.dir
-/home/kacper/Desktop/Programming/cpp/Code/RegisterOfRegisteredVehicles/build/source/CMakeFiles/edit_cache.dir
-/home/kacper/Desktop/Programming/cpp/Code/RegisterOfRegisteredVehicles/build/source/CMakeFiles/rebuild_cache.dir
